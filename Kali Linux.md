@@ -35,6 +35,7 @@ $ echo "SIEM Configuration" | sudo tee file5.conf
 $ echo "IPS System" | sudo tee file6.conf
 ````
 #### 🔹Ownership and permissions:
+
 |  Users  |  Role     |  Permission  |
 |---------|-----------|--------------|
 |  awatif |   Admin   |  Read/write  |
@@ -42,7 +43,7 @@ $ echo "IPS System" | sudo tee file6.conf
 |  Akram  |  Editor   |  Write only  |
 |---------|-----------|--------------|
 |  Asma   | Viewer    |   Read only  |
-|------------------------------------|
+
 
 
 
