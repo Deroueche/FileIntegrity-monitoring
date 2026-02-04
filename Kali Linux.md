@@ -138,7 +138,7 @@ $ echo "hack" >> \FileIntegrity-monitoring\file4.conf
 bash
 $ cat alerts.log
 ````
-[View Alerts]
+[View Alerts](https://github.com/Deroueche/FileIntegrity-monitoring/blob/main/alert.PNG)
 
 
 
