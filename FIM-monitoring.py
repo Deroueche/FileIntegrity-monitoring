@@ -5,6 +5,9 @@ from datetime import datetime
 
 
 FILES_TO_MONITOR = [
+   "/FileIntegrity-monitoring/file1.conf",
+   "/FileIntegrity-monitoring/file2.conf",
+   "/FileIntegrity-monitoring/file3.conf",
    "/FileIntegrity-monitoring/file4.conf",
    "/FileIntegrity-monitoring/file5.conf",
    "/FileIntegrity-monitoring/file6.conf"
