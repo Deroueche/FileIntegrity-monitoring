@@ -39,9 +39,7 @@ $ echo "IPS System" | sudo tee file6.conf
 |  Users  |  Role     |  Permission  |
 |---------|-----------|--------------|
 |  awatif |   Admin   |  Read/write  |
-|---------|-----------|--------------|
 |  Akram  |  Editor   |  Write only  |
-|---------|-----------|--------------|
 |  Asma   | Viewer    |   Read only  |
 
 
