@@ -108,6 +108,19 @@ $ sudo nano \FileIntegrity-monitoring\FIM-monitoring.py
 #### 🔹Python Script: 
 [FIM-monitoring.py](https://github.com/Deroueche/FileIntegrity-monitoring/blob/main/FIM-monitoring.py)
 
+save:
+````bash
+bash
+Ctrl + X -> y -> Enter 
+````
+#### 🔹Run FIM-monitoring.py:
+````bash
+bash
+python3 FIM-monitoring.py
+````
+this create:
+- hashes.db
+- No alert yet
 
 
 
