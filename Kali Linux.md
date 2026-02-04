@@ -42,11 +42,7 @@ $ echo "IPS System" | sudo tee file6.conf
 |  Akram  |  Editor   |  Write only  |
 |  Asma   | Viewer    |   Read only  |
 
-
-
-
-
-
+File01:
 ````bash
 bash
 $ cd FileIntegrity-monitoring
@@ -57,10 +53,34 @@ verify:
 ````bash
 bash
 $ ls -l file1.conf
--rw---------------awatif awatif      file1.conf
+-rw--------------1awatif awatif      file1.conf
 ````
-
-
+File02:
+````bash
+bash
+$ cd FileIntegrity-monitoring
+$ sudo chmod awatif:akram /FileIntegrity-monitoring/file2.conf
+$ sudo chmod 660 file2.conf
+````
+verify:
+````bash
+bash
+$ ls -l file2.conf
+-rw-rw-------------1 awatif akram      file2.conf
+````
+File03:
+````bash
+bash
+$ cd FileIntegrity-monitoring
+$ sudo chmod awatif:awatif /FileIntegrity-monitoring/file3.conf
+$ sudo chmod 644 file3.conf
+````
+verify:
+````bash
+bash
+$ ls -l file3.conf
+-rw-r--r-----------1 awatif awatif      file3.conf
+````
 
 
 
