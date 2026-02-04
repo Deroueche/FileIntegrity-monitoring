@@ -105,7 +105,8 @@ $ python3 --version
 bash
 $ sudo nano \FileIntegrity-monitoring\FIM-monitoring.py 
 ````
-
+#### 🔹Python Script: 
+[Python Script](https://github.com/Deroueche/FileIntegrity-monitoring/blob/main/FIM-monitoring.py)
 
 
 
