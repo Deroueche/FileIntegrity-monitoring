@@ -122,11 +122,23 @@ this create:
 - hashes.db
 - No alert yet
 
-
-
-
-
-
+### Part 03 : Simulate an attack
+#### 🔹Modify a files:
+````bash
+bash
+$ echo "test" >> \FileIntegrity-monitoring\file1.conf
+permission denied: file1.conf
+````
+````bash
+bash
+$ echo "hack" >> \FileIntegrity-monitoring\file4.conf
+````
+#### 🔹View Alerts:
+````bash
+bash
+$ cat alerts.log
+````
+[View Alerts]
 
 
 
