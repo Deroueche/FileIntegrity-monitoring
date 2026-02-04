@@ -92,6 +92,32 @@ $ ls -l
 -rw-rw-rw----------1 kali   kali        file5.conf
 -rw-rw-rw----------1 kali   kali        file6.conf
 ````
+### Part 02 : Python File Integrity Monitering Script
+#### 🔹Install Python:
+````bash
+bash
+$ sudo apt update
+$ sudo apt install python3 -y
+$ python3 --version
+````
+#### 🔹Create Python file:
+````bash
+bash
+$ sudo nano \FileIntegrity-monitoring\FIM-monitoring.py 
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
