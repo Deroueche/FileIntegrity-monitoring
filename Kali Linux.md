@@ -53,7 +53,7 @@ verify:
 ````bash
 bash
 $ ls -l file1.conf
--rw--------------1awatif awatif      file1.conf
+-rw--------------1 awatif awatif      file1.conf
 ````
 File02:
 ````bash
@@ -81,8 +81,17 @@ bash
 $ ls -l file3.conf
 -rw-r--r-----------1 awatif awatif      file3.conf
 ````
-
-
+All Files permissions:
+````bash
+bash
+$ ls -l
+-rw----------------1 awatif awatif      file1.conf
+-rw-rw-------------1 awatif akram       file2.conf
+-rw-r--r-----------1 awatif awatif      file3.conf
+-rw-rw-rw----------1 kali   kali        file4.conf
+-rw-rw-rw----------1 kali   kali        file5.conf
+-rw-rw-rw----------1 kali   kali        file6.conf
+````
 
 
 
