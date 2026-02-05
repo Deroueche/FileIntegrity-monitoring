@@ -23,10 +23,10 @@ It includes multi-user permission management to simulate insider threats and pri
 Each file is owned by a different Linux user and protected with restrictive permissions.
 
 ### ✔ How It Works
-1 - The script calculates SHA-256 Hashes of monitored files
-2 - Hashes are stored in a baseline database
-3 - On each execution, new hashes are compared with the baseline
-4 - Any modification, detection, or new file triggers an alert 
+- The script calculates SHA-256 Hashes of monitored files
+- Hashes are stored in a baseline database
+- On each execution, new hashes are compared with the baseline
+- Any modification, detection, or new file triggers an alert 
 
 ### 🚀 Usage
 ````bash
